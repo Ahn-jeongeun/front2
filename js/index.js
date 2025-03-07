@@ -11,13 +11,12 @@ window.onload=async()=>{
                   <div class="card-body">
                     <b class="card-title">${item.prodname}</b>
                     <p class="card-text text-danger">${item.price}원</p>
-                    <a href="#" class="btn btn-outline-info">장바구니 담기</a>
+                    <a href="#" class="btn btn-outline-info" id="addCart">장바구니 담기</a>
                   </div>
                 </div>`;
   });
   document.getElementById("productListDiv").innerHTML = productListDiv;
 }
-
 
 
 
